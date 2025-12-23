@@ -21,7 +21,7 @@ export default function About() {
                             <h1 className="text-5xl font-bold mb-8">About Me</h1>
                             <div className="prose prose-lg text-stone-600">
                                 <p className="text-xl leading-relaxed mb-6">
-                                    I am a Senior UI/UX Designer with over 7 years of experience crafting digital products that are not only beautiful but also accessible and easy to use. I believe in the power of design to solve real human problems.
+                                    I am a Senior UI/UX Designer with over 4+ years of experience crafting digital products that are not only beautiful but also accessible and easy to use. I believe in the power of design to solve real human problems.
                                 </p>
                                 <p className="mb-6">
                                     Currently, I am leading design initiatives at [Current Company], where I focus on building scalable design systems and mentoring junior designers. My background spans across Fintech, E-commerce, and Healthcare, giving me a diverse perspective on user needs.
