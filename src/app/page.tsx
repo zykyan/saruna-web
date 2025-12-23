@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowRight, Layout, Users, Zap, MousePointer2 } from "lucide-react";
 import { motion, Variants } from "framer-motion";
 import { caseStudies } from "@/lib/data";
+import Process from "@/components/Process";
 
 const titleVariants: Variants = {
   hidden: { opacity: 0 },
@@ -98,7 +99,7 @@ export default function Home() {
                 transition={{ delay: 0.8 }}
                 className="text-xl md:text-2xl text-stone-600 max-w-2xl leading-relaxed mb-12"
               >
-                🤟 Hi, I'm Saruna. With 4+ years of experience in UI/UX design, I have honed my skills to prioritize simplicity and user-centricity.
+                🤟 Hi, I&apos;m Saruna. With 4+ years of experience in UI/UX design, I have honed my skills to prioritize simplicity and user-centricity.
               </motion.p>
 
               <motion.div
@@ -166,6 +167,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Process Section */}
+        <Process />
 
         {/* Expertise Section */}
         <section className="px-6 py-20 max-w-7xl mx-auto">
